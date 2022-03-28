@@ -1,0 +1,551 @@
+* {
+    margin: 0%;
+}
+
+.header {
+    background-color: #232628;
+    color: white;
+    width: 100%;
+    height: 133px;
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    line-height: normal;
+    position: static;
+    z-index: auto;
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+body {}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    line-height: normal;
+    position: static;
+    z-index: auto;
+    height: 117px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(55, 59, 62);
+}
+
+.current-languaje {
+    width: 200px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 11px;
+    padding-bottom: 15px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.switcher {
+    height: 10px;
+    width: 16px;
+}
+
+.container-contact {
+    height: 85px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.schedule {
+    padding-left: 11px;
+    list-style: none;
+}
+
+.address {
+    padding-left: 11px;
+    display: flex;
+    flex-direction: row;
+}
+
+.address img {
+    width: 13px;
+    height: 11px;
+}
+
+.phone-image {
+    padding-left: 11px;
+    width: 14px;
+    height: 14px;
+    transform: rotate(-100deg);
+}
+
+.main-social-header {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(14, 19, 21);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0%;
+}
+
+.main-social-header a img {
+    width: 15px;
+    height: 14px;
+    font-size: 14px;
+}
+
+.social {
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo {
+    margin: 0%;
+    width: 100%;
+    height: 87px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(14, 19, 21);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo-img {
+    width: 126px;
+    height: 27px;
+}
+
+.menu {
+    width: 32px;
+    height: 32px;
+}
+
+.main {
+    background-image: url("https://motors.stylemixthemes.com/motorcycles/wp-content/uploads/sites/5/revslider/home_slider/moto_slider_img-1917x759.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 638px;
+}
+
+.conditions-categories-brand {
+    box-sizing: border-box;
+    padding-left: 30px;
+    background-color: #212e32;
+    width: 100%;
+    height: 380px;
+    color: #909799;
+}
+
+.conditions-categories-brand h4 {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.conditions {
+    background-color: #384347;
+    width: 95%;
+    height: 40px;
+    color: #9fa4a6;
+    border: none;
+}
+
+.conditions-categories-brand h6 {
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.searchButton {
+    background-color: #af2122;
+    width: 185px;
+    height: 42px;
+    color: white;
+    border-style: none;
+}
+
+.inventory {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 960px;
+    padding-top: 38px;
+}
+
+.inventory-moto {
+    background-color: #0e1315;
+    height: 100%;
+}
+
+.inventory-moto h1 {
+    font-weight: 700;
+    padding-top: 15px;
+    padding-left: 12px;
+    padding-bottom: 32px;
+}
+
+.motorcycles img {
+    width: 90%;
+    display: block;
+    position: absolute;
+    padding-left: 18px;
+}
+
+.links {
+    width: 163px;
+    height: 83.5px;
+    background-color: #af2122;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+    padding-left: 25px;
+    position: relative;
+    left: 35px;
+    top: 20px;
+    filter: alpha(opacity=70);
+    -moz-opacity: .70;
+    opacity: .70;
+}
+
+.links-inside {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.moto {
+    font-weight: bold;
+}
+
+.scooters img {
+    width: 90%;
+    display: block;
+    position: absolute;
+    padding-left: 18px;
+    margin-top: 120px;
+}
+
+.links-scooter {
+    width: 163px;
+    height: 83.5px;
+    background-color: #af2122;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+    padding-left: 25px;
+    position: relative;
+    left: 35px;
+    top: 145px;
+    filter: alpha(opacity=70);
+    -moz-opacity: .70;
+    opacity: .70;
+}
+
+.links-inside-scooter {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.moto-scooter {
+    color: white;
+    font-weight: bold;
+}
+
+.atvs img {
+    width: 90%;
+    display: block;
+    position: absolute;
+    padding-left: 18px;
+    margin-top: 240px;
+}
+
+.links-atvs {
+    width: 163px;
+    height: 83.5px;
+    background-color: #af2122;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+    padding-left: 25px;
+    position: relative;
+    left: 35px;
+    top: 260px;
+    filter: alpha(opacity=70);
+    -moz-opacity: .70;
+    opacity: .70;
+}
+
+.links-inside-atvs {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.moto-atvs {
+    color: white;
+    font-weight: bold;
+}
+
+.watercraft img {
+    width: 90%;
+    display: block;
+    position: absolute;
+    padding-left: 18px;
+    margin-top: 360px;
+}
+
+.links-watercraft {
+    width: 163px;
+    height: 83.5px;
+    background-color: #af2122;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+    padding-left: 25px;
+    position: relative;
+    left: 35px;
+    top: 370px;
+    filter: alpha(opacity=70);
+    -moz-opacity: .70;
+    opacity: .70;
+}
+
+.links-inside-watercraft {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.moto-watercraft {
+    color: white;
+    font-weight: bold;
+}
+
+.more-info {
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg");
+    width: 100%;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 48px;
+}
+
+.calendar {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 72px;
+}
+
+.calendar img,
+.information img {
+    padding-bottom: 18px;
+    width: 48px;
+    height: 48px;
+}
+
+.information {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.hot-deals {
+    background-color: #0e1315;
+    width: 100%;
+    height: 100px;
+}
+
+.motors-world {
+    background-image: url("https://motors.stylemixthemes.com/motorcycles/wp-content/uploads/sites/5/2015/09/moto_bg-1919x887.jpg");
+    width: 100%;
+    height: 587px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text-inside {
+    border: 8px solid white;
+    width: 85%;
+    height: 425px;
+    margin: 0 auto;
+    padding-top: 91px !important;
+    padding-bottom: 70px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.read-more {
+    background-color: #af2122;
+    width: 185px;
+    height: 42px;
+    color: white;
+    border-style: none;
+    margin-left: 20px;
+}
+
+.excellence {
+    background-color: #0e1315;
+    color: white;
+    width: 100%;
+    height: 485px;
+}
+
+.lines {
+    border-top: 2px solid #ffffff;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 50px;
+}
+
+.brands {
+    background-color: #243136;
+    width: 100%;
+    display: block;
+}
+
+.brands img {
+    width: 170px;
+    height: 85px;
+}
+
+.footer {
+    background-color: #161e21;
+    width: 100%;
+    color: white;
+}
+
+.footer span {
+    color: red;
+}
+
+.footer h6 {
+    padding-top: 18px;
+    padding-left: 6px;
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+
+.footer p {
+    padding-left: 6px;
+    color: #787b7c;
+}
+
+.footer-images {
+    text-align: center;
+    width: 100%;
+    height: 296px;
+    float: left;
+    background-color: #161e21;
+}
+
+.footer-images img {
+    width: 173px;
+    height: 80px;
+}
+
+.quick-links {
+    width: 100%;
+    height: 258px;
+    background-color: #161e21;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quick-links a {
+    text-decoration-line: underline;
+    color: #787b7c;
+}
+
+.suscribe {
+    text-align: center;
+}
+
+.suscribe input {
+    box-sizing: border-box;
+    padding-left: 30px;
+    width: 90%;
+    height: 38px;
+    color: #909799;
+    border: none;
+    margin: 5px;
+}
+
+.get-latest-updates {
+    color: #7d7e7e;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.send-message {
+    width: 143px;
+    height: 33px;
+    color: white;
+    background-color: #af2122;
+    border: none;
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    border-top: 1px solid #444444;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: #707272;
+}
